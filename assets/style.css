@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+h1 {
+font-size: 4rem;
+color: #fafafa;
+font-family: "Arvo";
+text-shadow: 3px 0 #ec0c5b;
+}
+
+.set{
+    margin: 10% auto;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo';
+    font-weight: 900;
+    color: #ec0c5b;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fafafa;
+}
