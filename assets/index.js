@@ -7,8 +7,12 @@ for (var i = 0; i < numberOfDrums; i++) {
   });
 }
 
+document.addEventListener("keydown", function (event) {
+  makeSound(event.key);
+});
+
 function makeSound(key) {
-  switch (buttonPress) {
+  switch (key) {
     case "w":
       var tom1 = new Audio("assets/sounds/tom-1.mp3");
       tom1.play();
